@@ -9,11 +9,13 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Vacation Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
+      home: const OnboardingScreen(),
       initialRoute: '/onboarding_screen',
       routes: {
         '/onboarding_screen': (context) => const OnboardingScreen(),

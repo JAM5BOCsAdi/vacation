@@ -7,7 +7,10 @@ class OnboardingScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Container(),
+        top: false,
+        child: Container(
+          color: Colors.white,
+        ),
       ),
     );
   }
