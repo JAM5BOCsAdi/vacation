@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:vacation/constants/const_colors.dart';
+import 'package:vacation/widgets/base_stateless_widget.dart';
 
 class VacationDetailsScreen extends StatelessWidget {
   const VacationDetailsScreen({super.key});
@@ -10,18 +11,12 @@ class VacationDetailsScreen extends StatelessWidget {
     double height = mediaQuery.height;
     double width = mediaQuery.width;
 
-    double baseWidth = 375;
-
-    double fem = width / baseWidth;
-    double ffem = fem * 0.97;
-
-    return Scaffold(
-      body: SafeArea(
-        child: Container(
-          color: kDarkerWhite,
-          height: height,
-          width: width,
-        ),
+    return const BaseStatelessWidget(
+      color: kDarkerWhite,
+      child: Column(
+        children: [
+          Text('Vacation Details Screen'),
+        ],
       ),
     );
   }
