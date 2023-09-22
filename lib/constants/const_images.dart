@@ -1,1 +1,1 @@
-const String subtract = 'assets/images/subtract.png';
+const String kSubtract = 'assets/images/subtract.png';

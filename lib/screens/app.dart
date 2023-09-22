@@ -15,10 +15,10 @@ class App extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const OnboardingScreen(),
+      home: const OnBoardingScreen(),
       initialRoute: '/onboarding_screen',
       routes: {
-        '/onboarding_screen': (context) => const OnboardingScreen(),
+        '/onboarding_screen': (context) => const OnBoardingScreen(),
         '/home_screen': (context) => const HomeScreen(),
         '/vacation_details_screen': (context) => const VacationDetailsScreen(),
       },
