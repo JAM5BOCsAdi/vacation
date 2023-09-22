@@ -4,11 +4,11 @@ import 'dart:ui';
 const Color kDarkerWhite = Color(0xfffefefe);
 
 // Onboarding Screen:
-const Color kOnBoardingBaseColor = Color(0xffffffff);
-const Color kOnBoardingTitleColor = Color(0xff111111);
-const Color kOnBoardingDescriptionColor = Color(0xff78828a);
-const Color kOnBoardingButtonColor = Color(0xff7c73c3);
-
+const Color kWhiteColor = Color(0xffffffff);
+const Color kBlackColor = Color(0xff111111);
+const Color kGreyColor = Color(0xff78828a);
+const Color kBlueColor = Color(0xff7c73c3);
+const Color kGreenColor = Color(0xff009b8d);
 // Home Screen:
 
 // Vacation Details Screen:
