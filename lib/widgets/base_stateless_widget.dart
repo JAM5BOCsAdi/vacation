@@ -30,12 +30,7 @@ class BaseStatelessWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: appBar ??
-          AppBar(
-            backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-            centerTitle: true,
-            title: const Text('MyApp'),
-          ),
+      appBar: appBar,
       body: SafeArea(
         top: safeAreaTop ?? true,
         bottom: safeAreaBottom ?? true,

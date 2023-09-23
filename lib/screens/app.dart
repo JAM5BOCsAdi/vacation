@@ -3,6 +3,8 @@ import 'package:vacation/screens/home_screen.dart';
 import 'package:vacation/screens/onboarding_screen.dart';
 import 'package:vacation/screens/vacation_details_screen.dart';
 
+import '../constants/const_routes.dart';
+
 class App extends StatelessWidget {
   const App({super.key});
 
@@ -16,11 +18,11 @@ class App extends StatelessWidget {
         useMaterial3: true,
       ),
       home: const OnBoardingScreen(),
-      initialRoute: '/onboarding_screen',
+      initialRoute: kOnBoardingScreen,
       routes: {
-        '/onboarding_screen': (context) => const OnBoardingScreen(),
-        '/home_screen': (context) => const HomeScreen(),
-        '/vacation_details_screen': (context) => const VacationDetailsScreen(),
+        kOnBoardingScreen: (context) => const OnBoardingScreen(),
+        kHomeScreen: (context) => const HomeScreen(),
+        kVacationDetailsScreen: (context) => const VacationDetailsScreen(),
       },
     );
   }

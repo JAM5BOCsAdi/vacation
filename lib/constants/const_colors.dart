@@ -3,7 +3,7 @@ import 'dart:ui';
 // Global:
 const Color kDarkerWhite = Color(0xfffefefe);
 
-// Onboarding Screen:
+// OnBoarding Screen:
 const Color kWhiteColor = Color(0xffffffff);
 const Color kBlackColor = Color(0xff111111);
 const Color kGreyColor = Color(0xff78828a);
