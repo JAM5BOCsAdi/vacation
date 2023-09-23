@@ -7,12 +7,12 @@ class VacationDetailsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final mediaQuery = MediaQuery.of(context).size;
-    double height = mediaQuery.height;
-    double width = mediaQuery.width;
+    // final mediaQuery = MediaQuery.of(context).size;
+    // double height = mediaQuery.height;
+    // double width = mediaQuery.width;
 
     return const BaseStatelessWidget(
-      color: kDarkerWhite,
+      color: kDarkerWhite1,
       child: Column(
         children: [
           Text('Vacation Details Screen'),

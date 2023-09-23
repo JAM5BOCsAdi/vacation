@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:vacation/screens/home_screen.dart';
+import 'package:vacation/screens/home_screen/home_screen.dart';
 import 'package:vacation/screens/onboarding_screen.dart';
 import 'package:vacation/screens/vacation_details_screen.dart';
 
@@ -18,7 +18,7 @@ class App extends StatelessWidget {
         useMaterial3: true,
       ),
       home: const OnBoardingScreen(),
-      initialRoute: kOnBoardingScreen,
+      initialRoute: kHomeScreen,
       routes: {
         kOnBoardingScreen: (context) => const OnBoardingScreen(),
         kHomeScreen: (context) => const HomeScreen(),

@@ -84,7 +84,7 @@ class OnBoardingScreen extends StatelessWidget {
                         fontWeight: FontWeight.w600,
                         height: 1.44,
                         letterSpacing: 0.09,
-                        color: kDarkerWhite,
+                        color: kDarkerWhite1,
                       ),
                     ),
                   ),

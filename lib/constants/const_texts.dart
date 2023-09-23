@@ -4,3 +4,6 @@ const String kOnBoardingDescription = 'Lorem Ipsum is simply dummy text of the\n
 const String kOnBoardingButton = 'Get Started';
 const String kOnBoardingDHA = 'Don\'t have an account';
 const String kOnBoardingRegister = 'Register';
+
+// Home Screen:
+const String kSeeAll = 'See All';

@@ -10,6 +10,7 @@ class BaseStatelessWidget extends StatelessWidget {
   final Color? color;
   final double? height;
   final double? width;
+  final EdgeInsetsGeometry? padding;
   final ScrollPhysics? physics;
   final Widget child;
 
@@ -23,6 +24,7 @@ class BaseStatelessWidget extends StatelessWidget {
     this.color,
     this.height,
     this.width,
+    this.padding,
     this.physics,
     required this.child,
   });
@@ -40,6 +42,7 @@ class BaseStatelessWidget extends StatelessWidget {
           color: color ?? Theme.of(context).colorScheme.onPrimary,
           height: height ?? MediaQuery.of(context).size.height,
           width: width ?? MediaQuery.of(context).size.width,
+          padding: padding,
           child: Scrollbar(
             child: SingleChildScrollView(
               scrollDirection: Axis.vertical,
