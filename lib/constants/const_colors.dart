@@ -2,7 +2,7 @@ import 'dart:ui';
 
 // Global:
 const Color kDarkerWhite1 = Color(0xfffefefe);
-const Color kDarkerWhite2 = Color(0xfff6f8fE);
+const Color kDarkerWhite2 = Color.fromRGBO(246, 248, 254, 1.0);
 const Color kGreenColor = Color(0xff009b8d);
 const Color kGreyColor = Color(0xff78828a);
 

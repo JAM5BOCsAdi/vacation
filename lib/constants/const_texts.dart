@@ -7,3 +7,8 @@ const String kOnBoardingRegister = 'Register';
 
 // Home Screen:
 const String kSeeAll = 'See All';
+const String kSearch = 'Search';
+const String kAirport = 'Airport';
+const String kTaxi = 'Taxi';
+const String kHotel = 'Hotel';
+const String kMore = 'More';
