@@ -7,3 +7,6 @@ const String kMapImg = 'assets/images/bxs-map-1-1.png';
 const String kBellImg = 'assets/images/action.png';
 const String kFilterImg = 'assets/images/filter.png';
 const String kAirportImg = 'assets/images/flight-1.png';
+const String kTaxiImg = 'assets/images/car-1.png';
+const String kHotelImg = 'assets/images/hotel-1.png';
+const String kMoreImg = 'assets/images/category.png';

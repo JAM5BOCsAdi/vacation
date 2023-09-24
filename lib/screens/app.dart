@@ -18,7 +18,7 @@ class App extends StatelessWidget {
         useMaterial3: true,
       ),
       home: const OnBoardingScreen(),
-      initialRoute: kHomeScreen,
+      initialRoute: kOnBoardingScreen,
       routes: {
         kOnBoardingScreen: (context) => const OnBoardingScreen(),
         kHomeScreen: (context) => const HomeScreen(),

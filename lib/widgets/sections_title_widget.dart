@@ -8,15 +8,15 @@ import 'package:vacation/constants/const_texts.dart';
 class SectionsTitleWidget extends StatelessWidget {
   final String title;
   final bool dotsIndicator;
-  final int? dotsCount;
-  final int? currentIndexPosition;
+  final int dotsCount;
+  final int currentIndexPosition;
   final String? seeAllRoute;
 
   const SectionsTitleWidget({
     required this.title,
     this.dotsIndicator = false,
-    this.dotsCount,
-    this.currentIndexPosition,
+    this.dotsCount = 0,
+    this.currentIndexPosition = 0,
     this.seeAllRoute,
     Key? key,
   }) : super(key: key);
@@ -28,8 +28,8 @@ class SectionsTitleWidget extends StatelessWidget {
         Text(title),
         dotsIndicator
             ? DotsIndicator(
-                dotsCount: dotsCount!,
-                position: currentIndexPosition!,
+                dotsCount: dotsCount,
+                position: currentIndexPosition,
                 decorator: DotsDecorator(
                   size: const Size(8, 8),
                   activeColor: kGreenColor,
