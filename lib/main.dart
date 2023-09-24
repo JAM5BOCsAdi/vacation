@@ -8,11 +8,6 @@ void main() {
     statusBarColor: Colors.transparent,
     statusBarIconBrightness: Brightness.dark,
   ));
-  //  SystemChrome.setPreferredOrientations(
-  //   [
-  //     DeviceOrientation.portraitUp,
-  //     // DeviceOrientation.portraitDown,
-  //   ],
-  // );
+
   runApp(const App());
 }

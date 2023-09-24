@@ -25,7 +25,17 @@ class SectionsTitleWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        Text(title),
+        Text(
+          title,
+          style: GoogleFonts.plusJakartaSans(
+            color: kBlackColor,
+            fontSize: 18,
+            fontWeight: FontWeight.w700,
+            height: 0.08,
+            letterSpacing: 0.09,
+          ),
+        ),
+        const Spacer(),
         dotsIndicator
             ? DotsIndicator(
                 dotsCount: dotsCount,
